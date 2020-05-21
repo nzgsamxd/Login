@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background: url(../img/bg.webp);
+	background-repeat: no-repeat;
+	background-size: 100% 100% ;
+	background-attachment: fixed ;		
+	/*css3新特性 flex*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#login-box{
+	width: 30%;
+	/*用内容撑开*/
+	/*height: 300px;*/
+	height: auto;
+	/*border: 1px solid;*/
+	/*margin: 0 auto;
+	margin-top: 15%;*/
+	text-align: center;
+	background: rgba(0, 0, 0, 0.6);
+	/*background: #000000;*/
+	/*opacity: 60;*/
+	padding: 20px 50px;
+}
+
+#login-box h1{
+	color: #fff;
+}
+
+/*#login-box .form{
+	margin-top: 50px;
+}*/
+
+#login-box .form .item{
+	margin-top: 10px;
+}
+
+#login-box .form i{
+	color: #fff;
+}
+
+#login-box .form .item input{
+	font-size: 16px;
+	border: 0;
+	border-bottom: 2px solid #fff;
+	padding: 5px 10px;
+	background: rgba(0, 0, 0, 0);
+	color: #fff;
+}
+
+#login-box button{
+	margin-top: 20px;
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: 500px;
+	border: 0;
+	border-radius: 15px;
+}
